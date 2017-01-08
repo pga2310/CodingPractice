@@ -1,0 +1,44 @@
+Output:
+------
+ 
+class Polymorph1 {
+main(): Void
+}
+ 
+class Circle {
+-radius : int
+Circle():
++getRadius(): int
+setRadius(): Void
+draw(): Void
+}
+ 
+class Shape {
+-x : int
+-y : int
+Shape():
++getX(): int
++getY(): int
+setX(): Void
+setY(): Void
+moveTo(): Void
+rMoveTo(): Void
+draw(): Void
+}
+ 
+class Rectangle {
+-width : int
+-height : int
+Rectangle():
++getWidth(): int
++getHeight(): int
+setWidth(): Void
+setHeight(): Void
+draw(): Void
+}
+
+
+Polymorph1 ---> Shape
+Polymorph1 ---> Rectangle
+Shape <|-- Circle:Inheritance
+Shape <|-- Rectangle:Inheritance

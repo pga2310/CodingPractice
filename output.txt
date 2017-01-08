@@ -1,0 +1,8 @@
+ ------------------------ 
+
+PlantUML class diagram description for Plymorph1.java:-
+ 
+Circle ----|> Shape
+Rectangle ----|> Shape
+Polymorph1 -----> Shape
+Polymorph1 -----> Rectangle

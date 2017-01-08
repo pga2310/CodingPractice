@@ -1,0 +1,8 @@
+
+Output
+---------
+ 
+Shape <|--- Circle:Inheritance
+Shape <|--- Rectangle:Inheritance
+Polymorph1 -----> Shape
+Polymorph1 -----> Rectangle
