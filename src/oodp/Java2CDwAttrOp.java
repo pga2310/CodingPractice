@@ -7,7 +7,7 @@ package oodp;
 
 /**
  *
- * @author Pushpak
+ * @author pga
  */
 import java.io.*;
 import java.util.regex.Pattern;
@@ -21,8 +21,8 @@ public class Java2CDwAttrOp {
 
     public static void main(String[] args) throws Exception {
 
-        String filepath = "C:\\Users\\Pushpak\\Documents\\NetBeansProjects\\OODP\\src\\oodp\\Polymorph1.java";
-        String output = "C:\\Users\\Pushpak\\Documents\\NetBeansProjects\\OODP\\src\\oodp\\outputAssignment2.txt";
+        String filepath = "Polymorph1.java";
+        String output = "outputAssignment2.txt";
         write = new PrintWriter(new FileWriter(output, true));
         write.println("Output:");
         write.println("------");
