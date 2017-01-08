@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Pushpak
+ * @author pga
  */
 class Solution {
 
