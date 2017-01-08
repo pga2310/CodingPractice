@@ -20,7 +20,7 @@ public class Java2CD {
     public static void classRelation(String filePath) throws Exception {
         BufferedReader br = new BufferedReader(new FileReader(filePath));
         try {
-            PrintWriter write = new PrintWriter(new FileWriter("C:\\Users\\Pushpak\\Documents\\NetBeansProjects\\OODP\\src\\oodp\\output.txt", true));
+            PrintWriter write = new PrintWriter(new FileWriter("output.txt", true));
             write.println("\nOutput");
             write.println("---------");
             write.println(" ");
@@ -83,7 +83,7 @@ public class Java2CD {
 
 public static void main(String[] args) throws Exception {
 
-        String filepath = "C:\\Users\\Pushpak\\Documents\\NetBeansProjects\\OODP\\src\\oodp\\Polymorph1.java";
+        String filepath = "Polymorph1.java";
         classRelation(filepath);
     }
 
