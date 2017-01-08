@@ -7,7 +7,7 @@ package oodp;
 
 /**
  *
- * @author Pushpak
+ * @author pga
  */
 public class Polymorph1 {
    public static void main(String argv[]) {
