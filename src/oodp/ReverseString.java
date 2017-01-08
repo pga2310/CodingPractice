@@ -7,7 +7,7 @@ package oodp;
 
 /**
  *
- * @author Pushpak
+ * @author pga
  */
 public class ReverseString {
     public static void main(String arg[]){
