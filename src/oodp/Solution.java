@@ -58,6 +58,7 @@ class Solution {
         Scanner sc = new Scanner(System.in);
 
         int x = sc.nextInt();
+        System.out.println(x);
 
         Solution obj = new Solution();
         obj.solution(x);
