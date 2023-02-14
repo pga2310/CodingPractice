@@ -12,6 +12,8 @@ import java.util.ArrayList;
  * @author pga
  */
 public class Flights {
+
+   //sysout
    final static int k = 0;
     public static void main(String arg[]){
         int[] arr = {900, 902, 904, 906, 908, 910};
